@@ -1,0 +1,44 @@
+{
+  "name": "hyperschema",
+  "version": "0.0.1",
+  "description": "JSON hyperschema router for koa",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec -r co-mocha --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litek/hyperschema.git"
+  },
+  "keywords": [
+    "json-schema",
+    "json",
+    "schema",
+    "schema",
+    "validator",
+    "validation",
+    "router",
+    "routing",
+    "koa"
+  ],
+  "author": "Ketil Albertsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/litek/hyperschema/issues"
+  },
+  "homepage": "https://github.com/litek/hyperschema#readme",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "co-mocha": "^1.1.0",
+    "co-supertest": "0.0.8",
+    "koa": "^0.20.0",
+    "mocha": "^2.2.4",
+    "supertest": "^0.15.0"
+  },
+  "dependencies": {
+    "co-body": "^2.0.0",
+    "jsck": "^0.2.4",
+    "koa-compose": "^2.3.0",
+    "path-to-regexp": "^1.0.3"
+  }
+}
